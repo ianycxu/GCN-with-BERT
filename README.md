@@ -1,7 +1,7 @@
 # Look Again at the Syntax: Relational Graph Convolutional Network for Gendered Ambiguous Pronoun Resolution
 
 ## Original Paper
- https://arxiv.org/abs/1905.08868
+https://www.aclweb.org/anthology/W19-3814/
 
 ## Introduction
 We propose an end-to-end resolver by combining pre-trained BERT with Relational Graph Convolutional Network (R-GCN). R-GCN is used for digesting structural syntactic information and learning better task-specific embeddings. Empirical results demonstrate that, under explicit syntactic supervision and without the need to fine tune BERT, R-GCN's embeddings outperform the original BERT embeddings on the coreference task. Our work obtains the state-of-the-art results on GAP dataset, and significantly improves the snippet-context baseline F1 score from 66.9% to 80.3%. We participated in the 2019 GAP Coreference Shared Task, and our codes are available online. The overall architecture is shown below.
